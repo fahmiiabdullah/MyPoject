@@ -1,0 +1,211 @@
+body {
+    background: #D9D9D9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    border: none;
+}
+
+/*ini navbar*/
+.navbar-tombol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+.navbar-tombol a {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  /* Style the links */
+  .navbar-tombol a {
+    position: relative; /* Needed for the underline effect */
+  }
+  
+  /* Add an underline effect on hover */
+  .navbar-tombol a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px; /* Adjust the height of the underline */
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff; /* Underline color */
+    transform: scaleX(0); /* Initially, the underline has no width */
+    transform-origin: bottom right;
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+  }
+  
+  .navbar-tombol a:hover::before {
+    transform: scaleX(1); /* Expand the underline on hover */
+    transform-origin: bottom left;
+  }
+
+.nav-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        padding-right: 40px;
+        background: rgba(63, 125, 182, 0.98);
+        position: auto;
+        width: auto;
+        height: 80px;
+        flex-shrink: 0;
+        font-family: 'poppins';
+}
+.logo {
+    width: 300px;
+    padding: 10px;
+    margin-left: 8px;
+    margin-top: 37px;
+}
+
+.navbar-tombol {
+    color: var(--muda);
+    padding: 30px;
+}
+
+.navbar-tombol a {
+    color: #E2EDE9;
+    padding: 10px;
+    font-weight: 500;
+    margin-right: 8px;
+}
+
+.navbar-tombol a:hover {
+    color: white;
+}
+
+.home {
+    width: 1440px;
+    height: 632px;
+    flex-shrink: 0;
+}
+.home-page {
+    justify-items: center;
+}
+.login {
+    background-color: #4D9BE2FA;
+    border-radius: 5px;
+    color: #E2EDE9;
+    font-weight: bold;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Poppins';
+    margin-left: 80px;
+}
+
+.login:hover {
+    background-color: #E2EDE9;
+    color: #4D9BE2FA;
+}
+
+.sign-up {
+    background-color: #0f29bdce;
+    border-radius: 5px;
+    color: #E2EDE9;
+    font-weight: bold;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Poppins';
+}
+
+.sign-up:hover {
+    background-color: #ffffff;
+    color: #0f29bdce;
+}
+
+.halo {
+    display: flex;
+    
+}
+.home-image{
+  flex: 1 1 40rem;
+  padding: 50px;
+  text-align: left;
+  padding-top: 0px;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  
+}
+
+.halo h1 {
+    color: #FFB834;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 50px;
+}
+
+.halo p {
+    width: 345px;
+    height: 186px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: 50px;
+}
+
+.halo q {
+    color: #000;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 50px;
+}
+
+.home-image {
+    width: 800px;
+    height: 450px;
+    flex-shrink: 0;
+    padding: 10px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.left-content {
+    float: left;
+    margin-top: 100px;
+<<<<<<< HEAD
+    width: 480px
+=======
+    width: 480;
+>>>>>>> 86d0263e31bf63044dfe3ed0a341c38db1ab0900
+}
+
+.right-content {
+    float: right;
+<<<<<<< HEAD
+    width: auto;
+=======
+    width: 300px;
+>>>>>>> 86d0263e31bf63044dfe3ed0a341c38db1ab0900
+}
